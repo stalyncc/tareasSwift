@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F24A3E1D8D809200DEB59E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F24A3D1D8D809200DEB59E /* AppDelegate.swift */; };
+		A5F24A401D8D809200DEB59E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F24A3F1D8D809200DEB59E /* ViewController.swift */; };
+		A5F24A431D8D809200DEB59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F24A411D8D809200DEB59E /* Main.storyboard */; };
+		A5F24A451D8D809200DEB59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F24A441D8D809200DEB59E /* Assets.xcassets */; };
+		A5F24A481D8D809200DEB59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F24A461D8D809200DEB59E /* LaunchScreen.storyboard */; };
+		A5F24A531D8D809300DEB59E /* juegomemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F24A521D8D809300DEB59E /* juegomemoriaTests.swift */; };
+		A5F24A5E1D8D809300DEB59E /* juegomemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F24A5D1D8D809300DEB59E /* juegomemoriaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5F24A4F1D8D809300DEB59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F24A321D8D809200DEB59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F24A391D8D809200DEB59E;
+			remoteInfo = juegomemoria;
+		};
+		A5F24A5A1D8D809300DEB59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F24A321D8D809200DEB59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F24A391D8D809200DEB59E;
+			remoteInfo = juegomemoria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5F24A3A1D8D809200DEB59E /* juegomemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juegomemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F24A3D1D8D809200DEB59E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5F24A3F1D8D809200DEB59E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5F24A421D8D809200DEB59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5F24A441D8D809200DEB59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5F24A471D8D809200DEB59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5F24A491D8D809200DEB59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F24A4E1D8D809300DEB59E /* juegomemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegomemoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F24A521D8D809300DEB59E /* juegomemoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegomemoriaTests.swift; sourceTree = "<group>"; };
+		A5F24A541D8D809300DEB59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F24A591D8D809300DEB59E /* juegomemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegomemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F24A5D1D8D809300DEB59E /* juegomemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegomemoriaUITests.swift; sourceTree = "<group>"; };
+		A5F24A5F1D8D809300DEB59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F24A371D8D809200DEB59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F24A4B1D8D809300DEB59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F24A561D8D809300DEB59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F24A311D8D809200DEB59E = {
+			isa = PBXGroup;
+			children = (
+				A5F24A3C1D8D809200DEB59E /* juegomemoria */,
+				A5F24A511D8D809300DEB59E /* juegomemoriaTests */,
+				A5F24A5C1D8D809300DEB59E /* juegomemoriaUITests */,
+				A5F24A3B1D8D809200DEB59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F24A3B1D8D809200DEB59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F24A3A1D8D809200DEB59E /* juegomemoria.app */,
+				A5F24A4E1D8D809300DEB59E /* juegomemoriaTests.xctest */,
+				A5F24A591D8D809300DEB59E /* juegomemoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F24A3C1D8D809200DEB59E /* juegomemoria */ = {
+			isa = PBXGroup;
+			children = (
+				A5F24A3D1D8D809200DEB59E /* AppDelegate.swift */,
+				A5F24A3F1D8D809200DEB59E /* ViewController.swift */,
+				A5F24A411D8D809200DEB59E /* Main.storyboard */,
+				A5F24A441D8D809200DEB59E /* Assets.xcassets */,
+				A5F24A461D8D809200DEB59E /* LaunchScreen.storyboard */,
+				A5F24A491D8D809200DEB59E /* Info.plist */,
+			);
+			path = juegomemoria;
+			sourceTree = "<group>";
+		};
+		A5F24A511D8D809300DEB59E /* juegomemoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F24A521D8D809300DEB59E /* juegomemoriaTests.swift */,
+				A5F24A541D8D809300DEB59E /* Info.plist */,
+			);
+			path = juegomemoriaTests;
+			sourceTree = "<group>";
+		};
+		A5F24A5C1D8D809300DEB59E /* juegomemoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5F24A5D1D8D809300DEB59E /* juegomemoriaUITests.swift */,
+				A5F24A5F1D8D809300DEB59E /* Info.plist */,
+			);
+			path = juegomemoriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F24A391D8D809200DEB59E /* juegomemoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F24A621D8D809300DEB59E /* Build configuration list for PBXNativeTarget "juegomemoria" */;
+			buildPhases = (
+				A5F24A361D8D809200DEB59E /* Sources */,
+				A5F24A371D8D809200DEB59E /* Frameworks */,
+				A5F24A381D8D809200DEB59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = juegomemoria;
+			productName = juegomemoria;
+			productReference = A5F24A3A1D8D809200DEB59E /* juegomemoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5F24A4D1D8D809300DEB59E /* juegomemoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F24A651D8D809300DEB59E /* Build configuration list for PBXNativeTarget "juegomemoriaTests" */;
+			buildPhases = (
+				A5F24A4A1D8D809300DEB59E /* Sources */,
+				A5F24A4B1D8D809300DEB59E /* Frameworks */,
+				A5F24A4C1D8D809300DEB59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F24A501D8D809300DEB59E /* PBXTargetDependency */,
+			);
+			name = juegomemoriaTests;
+			productName = juegomemoriaTests;
+			productReference = A5F24A4E1D8D809300DEB59E /* juegomemoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5F24A581D8D809300DEB59E /* juegomemoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F24A681D8D809300DEB59E /* Build configuration list for PBXNativeTarget "juegomemoriaUITests" */;
+			buildPhases = (
+				A5F24A551D8D809300DEB59E /* Sources */,
+				A5F24A561D8D809300DEB59E /* Frameworks */,
+				A5F24A571D8D809300DEB59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F24A5B1D8D809300DEB59E /* PBXTargetDependency */,
+			);
+			name = juegomemoriaUITests;
+			productName = juegomemoriaUITests;
+			productReference = A5F24A591D8D809300DEB59E /* juegomemoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F24A321D8D809200DEB59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Stalyn Chiquito";
+				TargetAttributes = {
+					A5F24A391D8D809200DEB59E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A5F24A4D1D8D809300DEB59E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5F24A391D8D809200DEB59E;
+					};
+					A5F24A581D8D809300DEB59E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5F24A391D8D809200DEB59E;
+					};
+				};
+			};
+			buildConfigurationList = A5F24A351D8D809200DEB59E /* Build configuration list for PBXProject "juegomemoria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5F24A311D8D809200DEB59E;
+			productRefGroup = A5F24A3B1D8D809200DEB59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F24A391D8D809200DEB59E /* juegomemoria */,
+				A5F24A4D1D8D809300DEB59E /* juegomemoriaTests */,
+				A5F24A581D8D809300DEB59E /* juegomemoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F24A381D8D809200DEB59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F24A481D8D809200DEB59E /* LaunchScreen.storyboard in Resources */,
+				A5F24A451D8D809200DEB59E /* Assets.xcassets in Resources */,
+				A5F24A431D8D809200DEB59E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F24A4C1D8D809300DEB59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F24A571D8D809300DEB59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F24A361D8D809200DEB59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F24A401D8D809200DEB59E /* ViewController.swift in Sources */,
+				A5F24A3E1D8D809200DEB59E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F24A4A1D8D809300DEB59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F24A531D8D809300DEB59E /* juegomemoriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F24A551D8D809300DEB59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F24A5E1D8D809300DEB59E /* juegomemoriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5F24A501D8D809300DEB59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F24A391D8D809200DEB59E /* juegomemoria */;
+			targetProxy = A5F24A4F1D8D809300DEB59E /* PBXContainerItemProxy */;
+		};
+		A5F24A5B1D8D809300DEB59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5F24A391D8D809200DEB59E /* juegomemoria */;
+			targetProxy = A5F24A5A1D8D809300DEB59E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5F24A411D8D809200DEB59E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F24A421D8D809200DEB59E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5F24A461D8D809200DEB59E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F24A471D8D809200DEB59E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F24A601D8D809300DEB59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5F24A611D8D809300DEB59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F24A631D8D809300DEB59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juegomemoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shs.juegomemoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5F24A641D8D809300DEB59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juegomemoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shs.juegomemoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A5F24A661D8D809300DEB59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = juegomemoriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shs.juegomemoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juegomemoria.app/juegomemoria";
+			};
+			name = Debug;
+		};
+		A5F24A671D8D809300DEB59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = juegomemoriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shs.juegomemoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juegomemoria.app/juegomemoria";
+			};
+			name = Release;
+		};
+		A5F24A691D8D809300DEB59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = juegomemoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shs.juegomemoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = juegomemoria;
+			};
+			name = Debug;
+		};
+		A5F24A6A1D8D809300DEB59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = juegomemoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shs.juegomemoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = juegomemoria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F24A351D8D809200DEB59E /* Build configuration list for PBXProject "juegomemoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F24A601D8D809300DEB59E /* Debug */,
+				A5F24A611D8D809300DEB59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F24A621D8D809300DEB59E /* Build configuration list for PBXNativeTarget "juegomemoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F24A631D8D809300DEB59E /* Debug */,
+				A5F24A641D8D809300DEB59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5F24A651D8D809300DEB59E /* Build configuration list for PBXNativeTarget "juegomemoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F24A661D8D809300DEB59E /* Debug */,
+				A5F24A671D8D809300DEB59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5F24A681D8D809300DEB59E /* Build configuration list for PBXNativeTarget "juegomemoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F24A691D8D809300DEB59E /* Debug */,
+				A5F24A6A1D8D809300DEB59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F24A321D8D809200DEB59E /* Project object */;
+}
