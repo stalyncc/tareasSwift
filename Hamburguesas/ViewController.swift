@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         view.backgroundColor = colorAleatorio
         view.tintColor = colorAleatorio
 
-        
+         
     }
 }
 
